@@ -1,3 +1,12 @@
+<!-- Quick Parameters -->
+<style>
+:root {
+  --primary-color: #f00;
+  --highlight-color: #fff;
+  --text-color: #FFF;
+}    
+</style>
+
 <div class="main-table-container"><table class="main-table"><tr><th class="item-h"></th><th class="quantity-h"></th><th class="unit-h"></th></tr>
     <tr class="grouplabel"><th colspan="3">Description</th></tr> 
     <tr><td colspan="3" style="word-wrap: break-word; overflow: visible; width:90vh; white-space: normal;">
@@ -51,7 +60,7 @@
 table {
   table-layout: fixed;
   width: 90vh;
-  color: #FFF;    
+  color: var(--text-color);    
 }
 
 th {
@@ -60,7 +69,7 @@ th {
     
 td {
   font-size: 4.5vh;
-  color: #FFF;  
+  color: var(--text-color);  
 }    
     
 th,
@@ -101,7 +110,7 @@ td {
 
 .grouplabel {
   background: #f00c;
-  color: #bbb;
+  color: var(--text-color);
   font-weight: bold;  
 }
     
@@ -148,7 +157,7 @@ li {
         <g transform="translate(156,-71)">
             <g transform="matrix(.98 0 0 -.98 -159 232)">
                 <g transform="scale(.1)">
-                    <g transform="translate(7.7)" fill="#bbb">
+                    <g transform="translate(7.7)" fill="var(--highlight-color)">
                         <path d="m413 119-30-26h-300l25 26h305"/>
                         <path d="m85 94h297l28 24h-302l-23-24m297-2h-300l-0.91 0.61 0.2 1.1 25 26 0.72 0.3h305l0.93-0.66-0.29-1.1-30-26-0.64-0.24"/>
                         <path d="m2312 93h-300l-30 26h305l25-26"/>
@@ -168,7 +177,7 @@ li {
                         <path d="m42 111v38l29 34v-38"/>
                         <path d="m42 1552v38l29-34v-38"/>
                     </g>
-                    <g transform="translate(7.7)" fill="#f00">
+                    <g transform="translate(7.7)" fill="var(--primary-color)">
                         <path d="m840 59h560l64 61 1.7 0.7h491l1.6-0.61 47-41h327l40 33v260l-42 36-0.86 1.9v905l0.59 1.6 43 50v237l-40 33h-327l-47-41-1.6-0.62h-1504l-1.6 0.6-48 41h-335l-39-33v-82l33-40 0.57-1.6v-268l-0.88-1.9-33-28v-635l35-29 0.91-1.9v-322l-0.68-1.7-35-37v-44l36-32h326l47 41 1.6 0.62h334l1.7-0.7 64-61m561-5h-562l-1.7 0.69-64 61h-332l-47-41-1.6-0.62h-328l-1.7 0.65-37 34-0.82 1.9v46l0.68 1.7 35 37v320l-35 29-0.91 1.9v638l0.88 1.9 33 28v266l-33 40-0.57 1.6v84l0.87 1.9 40 35 1.6 0.61h336l1.6-0.61 48-41h1502l47 41 1.6 0.62h329l1.6-0.58 41-34 0.91-1.9v-239l-0.6-1.6-43-50v-903l42-36 0.87-1.9v-263l-0.91-1.9-41-34-1.6-0.57h-329l-1.6 0.62-47 41h-489l-64-61-1.7-0.69"/>
                     </g>
                 </g>
@@ -176,4 +185,3 @@ li {
         </g>
     </svg>
 </div>
-
