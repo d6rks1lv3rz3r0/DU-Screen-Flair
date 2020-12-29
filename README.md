@@ -1,7 +1,7 @@
 # DU-Screen-Flair
 A collection of functional static and dynamic screens to add some sci-fi flair to your stores, factories, bases and ships. 
 
-A compactable is available for purchase in game at SilverZero Space Stall (VR: , :pos):
+A compactable is available for purchase in game at SilverZero Store Front (VR Ready, ::pos{0,0,-154236.1897,-381086.4120,-12743.3234}):
 ![Gallery](https://raw.githubusercontent.com/d6rks1lv3rz3r0/DU-Screen-Flair/main/Compactable%20Screen%20Flair%20Library.png?token=AL3HWDK7SSFQ5IKCKQFBRZS75KD2A)
 
 Buy Me a Beer dispensers available at the same station for donations and support.
