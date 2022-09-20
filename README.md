@@ -1,4 +1,4 @@
-# DU-Screen-Flair
+# DU-Screen-Flair (Deprecated - Use at Own Risk)
 A collection of functional static and dynamic screens to add some sci-fi flair to your stores, factories, bases and ships. 
 
 A compactable is available for purchase in game at SilverZero Store Front (VR Ready, ::pos{0,0,-154236.1897,-381086.4120,-12743.3234}):
